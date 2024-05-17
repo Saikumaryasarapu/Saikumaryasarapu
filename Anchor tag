@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Anchor tag</title>
+</head>
+<body>
+    <a
+    href="https://www.google.com/search?q=html&rlz=1C1RXQR_enIN1109IN1110&oq=html&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQABiPAtIBCTE3NTg0ajBqN6gCCLACAQ&sourceid=chrome&ie=UTF-8"
+    target="_blank">
+
+</a>
+   
+</body>
+</html>
