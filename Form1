@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Form 1</title>
+</head>
+<body>
+    enter your firstname  
+    <input type="text" name ="firstname">
+    <br>
+    <br>
+    enter your lastname
+    <input type="text"name ="lastname">
+    <br>
+    <h1>textarea</h1>
+    <textarea rows="10" columns="40"> web development</textarea>
+    <h2> lable</h2>
+    <label for="firstname">firstname</label>
+    <br>
+    <input type="text"id ="fiestname"placehoider="fiestname"name="fiestname"/>
+    <br>
+    <label for ="lastname">lastname</label>
+    <br>
+    <input type="text" id ="lastename" name = "lastename"/>
+    <br>
+    <h2>possword</h2>
+    <label for ="password">password</label>
+    <input type="password" id ="password" name = "password"/>
+    <h2>email</h2>
+    <label for ="email">email</label>
+    <input type="email" id ="email" name = "email"/>
+    <h2> Radio Button </h2>
+   <label for="places"> which is your favorite location: </label> <br>
+   <input type="radio" id="places" name="places" value="Hyderabad"> Hyderabad <br>
+   <input type="radio" id="places" name="places" value="Bangalore"> Bangalore <br>
+   <input type="radio" id="places" name="places" value="Chennai"> Chennai <br>
+   <input type="submit " value="submit"></submit>
+   <br>
+   <h2> checkbox control </h2>
+   <label for="places"> which is location </label><br>
+   <input type="checkbox" id="place" name="place" value="Hyderabad"> Hyderabad <br>
+   <input type="checkbox" id="place" name="place" value="Hyderabad"> AP<br>
+   <input type="checkbox" id="place" name="place" value="Hyderabad"> Chennai <br>
+   <input type="checkbox" id="place" name="place" value="Hyderabad"> Noida <br>
+   <input type="checkbox" id="place" name="place" value="Hyderabad">Bangalore<br>
+   <input type="checkbox" id="place" name="place" value="Hyderabad"> Coimbatore<br>
+      <br>
+      <h2> fieldset </h2>
+      <fieldset>
+      <legend> Personal Information : </legend>
+      <label for="name"> Enter Name: </label> <br>
+      <input type="text" id="name" name="name"> <br>
+      <label for="password"> enter password </label> <br>
+      <input type="text" id="pass" name="pass">
+</fieldset>
+</form> 
+
+</body>
+</html>
