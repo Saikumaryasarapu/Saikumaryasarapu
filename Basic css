@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="UTF-8" />
+   <title> basic CSS/ selectors </title>
+   <style> 
+       h1{
+           color: orange;
+background-color: black;
+           font-size: 50px;
+       }
+       p{
+           color: yellow;
+           background-color: lightseagreen;
+       }
+       .one{
+           color: black;
+           background-color:pink;
+       }
+       #two{
+           color: red;
+background-color: black;
+   </style>
+</head>
+<body> 
+   <h1> My family Names</h1>
+   <p> mother:ramana 
+   <br> Sister: sravanthi 
+   <br> my self: Sai Kumar</p>
+<div class="one">
+      mother:ramana 
+   <br> Sister: sravanthi 
+   <br> my self: Sai Kumar
+   
+</div>
+<br>
+<div id="two">
+  mother:ramana 
+   <br> Sister: sravanthi 
+   <br> my self: Sai Kumar
+</div>
+</body>
+</html>
