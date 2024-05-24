@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="UTF-8" />
+   <title> Padding </title>
+28 / 37
+  <style>
+   div{
+       width: 100px;
+       height: 100px;
+       background-color: Red;
+       border: 5px solid black;
+      margin: 100px;
+      padding: 100px;
+   }
+  </style>
+</head>
+<body>
+   <div>  
+       padding  
+       <br>
+       borders
+       <br>
+       margin
+       </div>
+</body>
+</html>
