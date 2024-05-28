@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title> Webpage</title>
+<style>
+*{
+padding: 0;
+margin: 0;
+}
+header{
+height: 45px;
+}
+header nav ul{
+display: flex;
+margin-left: 65%;
+list-style-type: none;
+}
+header nav ul li{
+padding-left: 5%;
+}
+header a{
+text-decoration: none;
+color: brown;
+}
+section{
+height: 80vh;
+border: 2px solid grey;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.container{
+margin-top: 10%;
+}
+.container img{
+height: 300px;
+border-radius: 40%;
+}
+.container h2{
+margin-top: 3%;
+font-size: 3em;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.container p,
+ ul{
+margin-top: 2%;
+font-size: 1.5rem;
+}
+footer{
+line-height: 40px;
+display: flex;
+justify-content: center;
+font-size: 1rem;
+}
+#intro{
+background-image:url(data:image/jpeg;base64,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);
+background-repeat: round;
+}
+#about{
+background-color: bisque;
+}
+#contact{
+background-color: blanchedalmond;
+}
+</style>
+</head>
+<body>
+<header>
+<nav>
+<ul>
+<li><a href="#intro">Home </a></li>
+<li><a href="#About">About </a></li>
+<li><a href="#contact">Contact </a></li>
+</ul>
+</nav>
+</header>
+<main>
+<section id="intro">
+<div class="container">
+<img src="https://th.bing.com/th?id=OIP.f4pXZ2WwdlhTPVNAtE-VUgHaKX&w=211&h=295&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2"alt="dog image"/>
+<h2>MODEL CARS</h2>
+</div>
+</section>
+<section id="adout">
+    <div class="container">
+        <h1>ABOUT CARS</h1>
+        <p>Are you planning on buying a new car? Well, we know that with so many car options available out there, it gets really difficult to find a good car which suits your need. Hence, we have put together a complete list of new cars. Maruti Suzuki, Tata and Porsche are the 3 most popular car brands. These popular car brands cater to a wide spectrum of budgets and needs, offering a variety of cars from fuel-efficient hatchbacks to spacious SUVs</p>
+        <ul>
+        <li> pet food</li>    
+        <li> Emergency Services </li>    
+            <li> Pup Care Advice </li>
+            </ul>
+            </div>
+            </section>
+            <section id="contact">
+            <div class="container">
+            <h2> Contact me </h2>
+            <p> visit us at: Madhapur, Hyderabad</p>
+            <ul>
+            <li> Email: modelcars@gmail.com </li>
+            <li> Follow us at: </li>
+            <li> model cars</li>
+            </ul>
+            </div>
+            </section>
+            </main>
+            <footer>
+            <p> &copy; Copyright 2022 modelcars </p>
+            </footer>
+            </body>
+    </html>
