@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<title> Z-index </title>
+<style>
+.one{
+position: relative;
+}
+.one1{
+position: relative;
+z-index: 1;
+background-color: aqua;
+border: 5px solid black;
+height: 100px;
+width: 200px;
+}
+.one2{
+position: absolute;
+z-index: 3;
+border: 5px solid yellow;
+background-color: rgb(241, 142, 188);
+width: 200px;
+height: 100px;
+top: 50px;
+left: 50px;
+}
+</style>
+</head>
+<body>
+<h1> Z-index </h1>
+<div class="one">
+<div class="one1">relative position z-index z-index z-index.relative position z-index.relative position z-index.relative position z-index.relative position z-index.relative position z-index</div>
+<div class="one2"> absolute position z-index </div>
+</div>
+</body>
+</html>
