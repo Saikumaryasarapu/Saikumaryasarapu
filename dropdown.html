@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>bropdown</title>
+    <style>
+        .dropbtn{
+
+background-color: lightcoral;
+
+color: rgb(247, 243, 37);
+
+padding: 5px;
+
+font-size: 20px;
+
+border: 3px solid rgba(25, 101, 199, 0.993);
+
+cursor: pointer;
+
+}
+.dropdown{
+
+position: relative;
+
+display: inline-block;
+}
+.items{
+
+position: absolute;
+
+background-color: rgb(232, 238, 238);
+
+min-width: 100px;
+
+box-shadow: 0 8px 18px lightpink;
+
+z-index: 1;
+
+display: none;
+
+}
+
+.items a{
+
+color: black;
+
+padding: 6px 7px;
+
+text-decoration: none;
+
+display: block;
+
+}
+
+.items a:hover{
+
+background-color: lightsalmon;
+
+}
+
+.dropdown:hover .items{
+
+display: block;
+
+}
+
+.dropdown:hover .dropbtn{
+
+background-color: lightslategrey;
+}
+    </style>
+</head>
+<body>
+    <h1> Drop-downs </h1>
+<div class="dropdown">
+<button class="dropbtn"> Languages </button>
+<div class="items">
+<a href="#"> Telugu </a>
+<br>
+<a href="#"> Hindi</a>
+<br>
+<a href="#"> English </a>
+</div>
+</div>
+</body>
+</html>
