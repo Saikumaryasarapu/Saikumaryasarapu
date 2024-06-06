@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<title> Animations </title>
+<style>
+div{
+width: 100px;
+height: 100px;
+background-color: rgb(0, 255, 136);
+animation-name: saikumar;
+animation-duration: 1s;
+animation-fill-mode: forwards;
+animation-iteration-count: infinite;
+position: relative;
+}
+@keyframes saikumar{
+from{left: 0px;}
+to{left: 300px;}
+}
+#linear{
+animation-timing-function: linear;
+}
+#ease{
+animation-timing-function: ease;
+}
+#easein{
+animation-timing-function: ease-in;
+}
+#easeout{
+animation-timing-function: ease-out;
+}
+#ease3{
+animation-timing-function: ease-in-out;
+}
+</style>
+</head>
+<body>
+<h1> Animations </h1>
+<div>
+</div>
+<h2> transiton-timing-function </h2>
+<h3> linear property: same speed from start to end</h3>
+<div id="linear"> linear </div>
+<h3> ease property: slow start, then fast, end slowly</h3>
+<div id="ease"> ease </div>
+<h3> ease-in property: with a slow start</h3>
+<div id="easein"> ease-in </div>
+<h3> ease-out property: slow end </h3>
+<div id="easeout"> ease-out </div>
+<h3> ease-in-out property: slow start and end </h3>
+<div id="ease3"> ease-in-out </div>
+</body>
+</html>
